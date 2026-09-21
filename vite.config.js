@@ -38,7 +38,7 @@ export default defineConfig(({ mode }) => {
         disable: false,
         threshold: 1024,
         algorithm: 'gzip',
-        deleteOriginFile: true
+        deleteOriginFile: false
       }),
       visualizer({ open: false })
     ],
